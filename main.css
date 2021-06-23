@@ -13,6 +13,7 @@ body{
 
 .box{ 
     display: flex;
+    
 }
 
 .box .eye{
