@@ -1,7 +1,9 @@
 document.body.addEventListener("mousemove", e => {
     gsap.to(".circle", {
         x: e.clientX,
-        y: e.clientY
+        y: e.clientY,
+
+        stagger: -0.09
 
     })
 })
