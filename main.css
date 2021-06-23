@@ -10,3 +10,18 @@ body{
     min-height: 100vh;
     background: radial-gradient(#f2761e, #642501);
 }
+
+.box{ 
+    display: flex;
+}
+
+.box .eye{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 50%;
+    box-shadow: 0 50px 45px rgba(0,0,0,0.2);
+}
