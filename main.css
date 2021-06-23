@@ -25,7 +25,7 @@ body{
     border-radius: 50%;
     box-shadow: 0 50px 45px rgba(0,0,0,0.2),
                 inset 0 0 15px #f58181,
-                inset 0 0 35px #bd0000;
+                inset 0 0 25px #bd0000;
 }
 
 .box .eye::before{
