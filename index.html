@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="main.css">
-    <script src="index.js" defer></script>
 
-    div.
     <title>Online Tutorial Practice</title>
 </head>
 <body>
     <main class="cursor">
         <article class="circle"></article>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script>
+        document.body.addEventListener("mousemove", e => {
+            gsap.to(".circle", {
+                x: e.clientX,
+                y: e.clientY
+
+            })
+        })
+    </script>
 </body>
 </html>
